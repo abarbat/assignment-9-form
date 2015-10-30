@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html  lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Basic Bootstrap File</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+
+<body>
+<div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+
+<h1>Meyers&ndash;Briggs Type Indicator Quiz</h1>
+
+<p class="lead">The <a href="https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator">Meyers&ndash;Briggs Type Indicator</a> is a test that defines personalities in terms of four dichotimies: iNtuition vs. Sensing, Perception vs. Judging, Feeling vs. Thinking and Introversion vs. Extraversion. Test results are sometimes used in career counseling or professional development.
+</p>
+
+<form>
+  <div class="form-group">
+    <label for="theory">Whose typological theory is the Meyers-Briggs test based on?</label>
+    <input class="form-control" type="text" name="theory" id="theory" placeholder="Type a name" maxlength="50">
+  </div>
+
+  <div class="form-group">
+    <label for="languages">The test has been translated into more than how many languages?</label>
+    <input class="form-control" type="text" name="languages" id="languages" placeholder="Type a number" maxlength="10">
+  </div>
+
+  <div class="form-group">
+    <label for="learning">How are cognitive learning styles different between extraverts and introverts?</label>
+    <textarea class="form-control" name="learning" id="learning" placeholder="100 words or less"></textarea>
+  </div>
+
+  <p>Which of the following types is most common in the U.S.?</p>
+  <div class="radio">
+    <label>
+      <input type="radio" name="commontype" id="type1" value="ESTP">
+        ESTP
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="commontype" id="type2" value="ISFJ">
+        ISFJ
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="commontype" id="type3" value="ENFJ">
+        ENFJ
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="commontype" id="type4" value="ENTP">
+        ENTP
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="commontype" id="type5" value="ISFP">
+        ISFP
+    </label>
+  </div>
+
+  <p>Which are NOT characteristics of extraverts? (Mark all that apply.)</p>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" name="characteristic" id="characteristic1" value="breadth">
+          Seek breadth of knowledge and influence
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" name="characteristic" id="characteristic2" value="action-oriented">
+          Action-oriented
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" name="characteristic" id="characteristic3" value="frequent">
+          Prefer frequent interaction
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" name="characteristic" id="characteristic4" value="depth">
+          Seek depth of knowledge and influence
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" name="characteristic" id="characteristic5" value="people">
+          Get energy from spending time with people
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" name="characteristic" id="characteristic6" value="substantial">
+          Prefer more substantial interaction
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" name="characteristic" id="characteristic7" value="alone">
+          Get their energy from spending time alone
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" name="characteristic" id="characteristic8" value="thought-oriented">
+          Thought-oriented
+      </label>
+    </div>
+
+
+  <div class="form-group">
+    <label for="flourishes">Which type flourishes in a flexible learning environment with new and exciting ideas?</label>
+      <select class="form-control" name="flourishes" id="flourishes">
+        <option>Intuition</option>
+        <option>Thinking</option>
+        <option>Sensing</option>
+        <option>Feeling</option>
+        <option>Extraversion</option>
+        <option>Judging</option>
+        <option>Introversion</option>
+        <option>Perception</option>
+      </select>
+  </div>
+
+  <div class="form-group">
+    <input class="btn btn-default pull-right" type="submit" value="Submit">
+  </div>
+  <div class="form-group">
+    <input class="btn btn-default" type="reset" value="Reset form">
+  </div>
+
+</form>
+
+</div>
+</div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
